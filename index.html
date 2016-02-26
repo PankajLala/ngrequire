@@ -1,0 +1,14 @@
+<!DOCTYPE>
+<html>
+<head>
+  <title>Bootsrapping ng with require</title>
+</head>
+<body >
+  <script src="./node_modules/requirejs/require.js"></script>
+  <script>
+    require(['config', 'app'], function(){
+      require(['main']);
+    })
+  </script>
+</body>
+</html>
