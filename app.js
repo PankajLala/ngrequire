@@ -1,4 +1,4 @@
-define(['require', 'angular', function(require, angular){
-  debugger;
-  return angular.module('app',[]);
-}]);
+define(['require', 'angular'], function(require, angular){
+  var module = angular.module('app',[]);
+  return module;
+});

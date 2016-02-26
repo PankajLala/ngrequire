@@ -9,7 +9,6 @@ require(['angular', 'app', 'angular-cookies'], function(angular){
 
     document.cookie = "my-session=;path=/;expires=Thu, 01 Jan 1970 00:00:01 GMT;";
 
-    debugger;
     angular.module('app')
         .constant('session', session)
         .constant('featureFlags', window._features).run(function(){
